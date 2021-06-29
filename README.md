@@ -65,7 +65,20 @@ EXERCÍCIO 3
        ;MOV, LSL, LSR, ASR, ROR e RRX: são todas instruções de 32 bits (Wide)
        ;B: instrução de 16 bits (Narrow)
 
+7. Experimente trocar as instruções MOV por instruções MVN e repetir o exercício.
+   
+   7.1 A construção da aplicação foi bem sucedida?
+   
+       ;Sim
+       
+   7.2 Procure decifrar os resultados de cada operação.
 
+       ;MOV R0, #0x55         ;RO ;= 0x55
+       ;MOV R1, R0, LSL #16   ;R1 ;= R0 Deslocado 4 digitos para esquerda
+       ;MOV R2, R1, LSR #8    ;R2 ;= R1 Deslocado 2 digitos para direita
+       ;MOV R3, R2, ASR #4    ;R3 ;= R2 Adiantado 2 digitos .... = R2
+       ;MOV R4, R3, ROR #2    ;R4 ;= R3 Adiantado 1 digito com rotação ... 0154
+       ;MOV R5, R4, RRX
 
 
 
