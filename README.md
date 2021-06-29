@@ -59,6 +59,14 @@ EXERCÍCIO 3
        ;MOV R4, R3, ROR #2    ---------> 0x50
        ;MOV R5, R4, RRX       ---------> 0x54
 
+    6.2 Os opcodes das instruções que foram escolhidas pelo montador usando a UAL. Quais instruções são de 16 bits e quais são de 32 bits?
+    Os mnemônicos do disassembly correspondem exatamente aos mnemônicos usados no programa?
+
+       ;MOV, LSL, LSR, ASR, ROR e RRX: são todas instruções de 32 bits (Wide)
+       ;B: instrução de 16 bits (Narrow)
+
+
+
 
 
 
